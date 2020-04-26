@@ -343,7 +343,12 @@
 		<site>
 			<id>tmp-site-deploy</id>
 			<url>file://${project.build.directory}/site-deploy-generated</url>
-		</site>
+        </site>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/casmith/irc-downloader</url>
+        </repository>    
 	</distributionManagement>
 	
 	<profiles>
