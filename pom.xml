@@ -10,7 +10,7 @@
 		Maven Information
 	-->
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.pircbotx</groupId>
+	<groupId>casmith</groupId>
 	<artifactId>pircbotx</artifactId>
 	<packaging>jar</packaging>
 	<version>2.2</version>
