@@ -540,6 +540,7 @@ public class DccHandler implements Closeable {
 
 	protected ServerSocket createServerSocket(User user) throws IOException, DccException {
 		InetAddress address = getRealDccLocalAddress();
+		log.warn("Using dcc address {}", address.toString());
 		ImmutableList<Integer> dccPorts = bot.getConfiguration().getDccPorts();
 		ServerSocket ss = null;
 		if (dccPorts.isEmpty())
